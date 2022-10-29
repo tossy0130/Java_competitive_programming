@@ -15,7 +15,7 @@ public class C_01 {
             iarr[i] = Integer.parseInt(sarr[i]);
         }
 
-        // ================= 昇順にソート ==============
+        // ================= 昇順にソート （クイックソート） ==============
         for (int i = iarr.length - 1; 0 < i; i--) {
             if (iarr[i] < iarr[i - 1] && i > 0) {
                 int tmp = iarr[i - 1];
